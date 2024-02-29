@@ -1,0 +1,27 @@
+[[language]]
+name = "python"
+auto-format = true
+language-servers = [
+  {name = "pyright"},
+  {name = "ruff-lsp"},
+]
+
+[language-server.pyright]
+command = "pyright-langserver"
+args = ["--stdio"]
+config = {}
+
+[language-server.ruff-lsp]
+command = "ruff-lsp"
+args = []
+config = {}
+
+[[language]]
+name = "rust"
+auto-format = true
+
+# [language-server.rust-analyzer.config]
+# checkOnSave = {command = "cargo", extraArgs = ["clippy", "--workspace", "--message-format=json", "--all-targets", "--"]}
+# cargo = {allFeatures = true}
+# procMacro = {enable = true }
+
