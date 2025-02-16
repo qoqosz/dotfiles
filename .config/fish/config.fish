@@ -29,3 +29,4 @@ if test -d (brew --prefix)"/share/fish/vendor_completions.d"
 end
 
 fish_add_path -g /opt/homebrew/opt/gawk/libexec/gnubin
+starship init fish | source

@@ -1,0 +1,7 @@
+[time]
+disabled = false
+format = '🕙[\[ $time \]]($style) '
+time_format = '%T'
+
+[directory]
+truncate_to_repo = true

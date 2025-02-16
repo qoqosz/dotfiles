@@ -1,0 +1,13 @@
+[build]
+rustflags = ["-C", "target-cpu=native"]
+
+[target.release]
+rustflags = ["-C", "target-cpu=native"]
+
+[cargo.new]
+name = "Łukasz Bednarski"
+email = "qoqosz@gmail.com"
+
+[profile.profiling]
+inherits = "release"
+debug = true

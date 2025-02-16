@@ -1,0 +1,3 @@
+[opener]
+text = [{ run = 'hx "$@"', block = true }]
+edit = [{ run = 'hx "$@"', block = true }]
