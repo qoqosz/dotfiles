@@ -1,0 +1,8 @@
+[opener]
+text = [{ run = 'hx "$@"', block = true }]
+edit = [{ run = 'hx "$@"', block = true }]
+
+# macOS: Preview files with the system Quick Look
+[[manager.prepend_keymap]]
+on = "<C-p>"
+run = 'shell -- qlmanage -p "$@"'
